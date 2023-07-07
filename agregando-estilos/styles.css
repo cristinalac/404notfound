@@ -1,0 +1,109 @@
+html, body{
+font-size: 18px;
+font-family: 'Space Mono', monospace;
+display: flex;
+flex-direction: column;
+}
+
+h1 {
+color:black;
+font-weight: 500vw;
+
+}
+h2 {
+    color:black;
+    font-size: 5rem;
+    padding-top: 1rem;
+    }
+p{
+    color:black;
+    font-weight: 500vw;
+    font-size: 2rem; 
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+    }  
+
+button{
+    color:white;
+    background-color: black;
+    width: fit-content;
+    font-size: 1.5rem;
+    padding: 4rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+footer{
+    color: gray;
+    font-weight: 500vw;
+    padding:10rem ;
+    display: flex;
+    justify-content: center;
+    margin-block: 6rem;
+    padding: 20px;
+    
+}
+.mainbox{
+    gap: 3.5em;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.image{
+    width: 100%;
+    display:flex;
+    padding: 6rem;
+    justify-items: center;    
+}
+.boxinstructions{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    margin-left: 2.5rem;
+
+   
+}
+
+
+@media (min-width: 1440px){
+.mainbox{
+    display:flex;
+    flex-direction: row;
+}
+.image{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    padding: 50px;
+    margin: 0;
+    margin-top: 4rem;
+}
+.boxinstructions{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4rem;
+}
+h2{
+    font-size: 56px;
+    padding: 8px;
+    padding-left: 0px;
+    margin: 0px;
+}
+p{
+    font-size: 16px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    padding-bottom: 18px;
+    margin-right: 23rem;
+
+}
+button{
+padding: 30px;
+padding-left: 40px;
+padding-right: 40px;
+margin: 0px;
+font-size: 10px;
+
+}
+}
